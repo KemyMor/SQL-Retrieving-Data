@@ -7,6 +7,8 @@ Retrieving Data using The Select Statement, Where, CASE And Operator Statement.
 + WHERE Department = 'Software Development Department'
 + AND work_life_balance > 4
 + AND salary_and_benefits > 4.5;
+## RESULT 
+![SQL SELECT_ WHERE_OPERATORS](https://github.com/KemyMor/SQL-Retrieving-Data/blob/6fe1b38b73766300d64b0226cf18ffdf098093e9/SQL%20SELECT_%20WHERE_OPERATORS.jpg)
 
 # CASE 2
 ---- using case statement, create a new column that specifies everything greater than 4 for the whole qualities as 'excellent', having atleast two qualities greater than 3 as 'Good' and everyother thing as 'poor'----
@@ -20,4 +22,5 @@ Retrieving Data using The Select Statement, Where, CASE And Operator Statement.
 					AND work_satisfaction < 3 THEN 'POOR'
           END AS APPRAISALS
 + FROM Employee_Review;
-
+## RESULT
+![SQL Case Statement](https://github.com/KemyMor/SQL-Retrieving-Data/blob/6fe1b38b73766300d64b0226cf18ffdf098093e9/SQL%20Case%20Statement.jpg)
